@@ -29,7 +29,6 @@ body {
     /*column opmaakt*/
 .column {
   padding: 10px;
-  height: 300px;
 }
 
 .column.side {
@@ -81,13 +80,12 @@ body {
   }
 }
 
-/*Contact*/
+/*contact*/
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 90%;
-  margin: 5%;
+  width: 100%;
 }
 
 td {
