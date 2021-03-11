@@ -24,6 +24,69 @@
 
       <div class="column middle" style="background-color:#bbb;">
         <h2>Contact</h2>
+        <fieldset>
+          <form>
+          <div class="container">
+            <div class="row">
+              <div class="col-31">
+                <label for="naam">Naam</label>
+              </div>
+              <div class="col-69">
+                <input type="text" id="naam" name="naam" placeholder="Naam" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-31">
+                <label for="achternaam">Achternaam</label>
+              </div>
+              <div class="col-69">
+                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-31">
+                <label for="email">E-mail</label>
+              </div>
+              <div class="col-69">
+                <input type="text" id="email" name="e-mail" placeholder="email@gmail.com" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-31">
+                <label for="telefoon">Telefoon</label>
+              </div>
+              <div class="col-69">
+                <input type="text" id="telefoon" name="telefoon" placeholder="+.. 1-234-567-89" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-31">
+                <label for="land">Land</label>
+              </div>
+              <div class="col-69">
+                <select id="land" name="land" required> 
+                  <option value="nederland">Nederland</option>
+                  <option value="belgië">België</option>
+                  <option value="duitsland">Duitsland</option>
+                  <option value="vk">Verenigd Koninkrijk</option>
+                  <option value="frankrijk">Frankrijk</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-31">
+                <label for="bericht">Bericht</label>
+              </div>
+              <div class="col-69">
+                <textarea id="bericht" name="bericht" placeholder="Schrijf hier uw bericht.." style="height:175px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit">
+            </div>
+          </div>
+          </form>
+        </fieldset>
       </div>
     <div class="column side" style="background-color:#ccc;">Column</div>
   </div>
