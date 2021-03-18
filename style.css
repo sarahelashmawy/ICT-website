@@ -20,7 +20,7 @@ body {
 .row {
   display: -webkit-flex;
   display: flex;
-  margin: 75px;
+  margin: 50px;
 }
 
    /*column opmaakt*/
@@ -29,6 +29,7 @@ body {
   -webkit-flex: 4;
   -ms-flex: 4;
   flex: 4;
+  padding: 15px;
   
 }
 
@@ -146,5 +147,5 @@ input[type=submit]:hover {
 /*video*/
 .video {
   text-align: center;
-  margin:75px;
+  margin:50px;
 }
