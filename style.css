@@ -28,11 +28,11 @@ body {
   -webkit-flex: 4;
   -ms-flex: 4;
   flex: 4;
+  text-align: center;
 }
 
 .column h2 {
  font-size:24px;
- text-align: center;
 }
 
     /*topnav*/
