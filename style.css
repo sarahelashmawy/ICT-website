@@ -75,6 +75,10 @@ body {
     width: 100%;
     margin-top: 0;
   }
+  .vid (max-width: 600px;) {
+    width:100%;
+    height:100%;
+  }
 }
 
 /*tabel*/
