@@ -1,16 +1,18 @@
 
-* {
-  box-sizing: border-box;
-}
+*
 
 /*basis opmaak*/
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://exchange.nottingham.ac.uk/content/uploads/Information-security-video-WIDEBANNER.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
 }
 
 .header {
-  background-color: #f1f1f1;
   padding: 3px;
+  background-color: #191970 ;
   text-align: center;
   font-size: 30px;
 }
@@ -20,30 +22,15 @@ body {
   display: flex;
 }
 
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
    /*column opmaakt*/
+
 .column {
-  padding: 10px;
-}
-
-.column.side {
-   -webkit-flex: 1;
-   -ms-flex: 1;
-   flex: 1;
-}
-
-.column.middle {
   -webkit-flex: 4;
   -ms-flex: 4;
   flex: 4;
 }
 
-.column.middle h2 {
+.column h2 {
  font-size:24px;
 }
 
