@@ -30,6 +30,11 @@ body {
   -ms-flex: 4;
   flex: 4;
   padding: 15px;
+
+  border-radius: 25px;
+  border: 3px solid teal;
+
+}
   
 }
 
