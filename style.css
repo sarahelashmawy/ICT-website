@@ -12,7 +12,7 @@ body {
 
 .header {
   padding: 3px;
-  background-color: #191970 ;
+  background-color:lightgrey ;
   text-align: center;
   font-size: 30px;
 }
@@ -32,6 +32,7 @@ body {
 
 .column h2 {
  font-size:24px;
+ text-align: center;
 }
 
     /*topnav*/
@@ -141,3 +142,4 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
