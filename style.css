@@ -156,3 +156,19 @@ input[type=submit]:hover {
   text-align: center;
   margin:50px;
 }
+
+/*images*/
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 49.99%;
+}
